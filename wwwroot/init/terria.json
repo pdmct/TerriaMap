@@ -37,6 +37,29 @@
           "includeEsriFeatureServer": true
         },
         {
+          "name": "enwtineTest",
+          "type": "group",
+          "description": "These datasets use the entwine and [Cesium 3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles) format.",
+          "items": [
+                {
+                    "name": "Example enwtine 3d tiles",
+                    "type": "3d-tiles",
+                    "url": "http://cesium.entwine.io/data/nyc-2/tileset.json",
+                    "options": {
+                        "maximumScreenSpaceError": 1,
+                        "maximumNumberOfLoadedTiles": 1000
+                    }
+                },
+            "rectangle": [
+                153.01,
+                -27.484,
+                153.034,
+                -27.46
+              ]
+            }
+          ]
+        },
+        {
           "name": "aero3Dpro",
           "type": "group",
           "description": "![aero3Dpro](http://aero3dpro.com.au/images/aero3dpro-logo2.png)\n\nAero3Dpro is an Australian 3D mapping service for the generation of geographically accurate, fully textured and high resolution 3D models of natural and urban environments.\n\nIt is an end-to-end service based on aerial photogrammetry techniques including flight planning, image acquisition, 3D processing, geo-registration and final delivery.\n\nAero3Dpro models can be provided as stand-alone data for use in common 3D rendering and CAD software or as 3D GIS-ready products.\n\nhttp://aero3dpro.com.au/\n\nThese datasets use the [Cesium 3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles) format.",
