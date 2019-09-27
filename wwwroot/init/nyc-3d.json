@@ -1,11 +1,11 @@
 {
     "catalog": [
         {
-            "name": "Cesium 3D Tiles",
+            "name": "Cesium 3D Tiles with entwine nyc",
             "type": "group",
             "items": [
                 {
-                    "name": "Example enwtine 3d tiles",
+                    "name": "Example entwine 3d tiles of nyc",
                     "type": "3d-tiles",
                     "url": "http://cesium.entwine.io/data/nyc-2/tileset.json",
                     "options": {
